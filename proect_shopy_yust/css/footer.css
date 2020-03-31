@@ -1,0 +1,75 @@
+.site-footer {
+    padding: 60px 0 44px 0;
+    background-color: #ffffff;
+}
+
+.footer-logo {
+    width: 117px;
+}
+
+.footer-logo h4:first-child {
+    float: left;
+}
+
+.ellipse-logo {
+    width: 34px;
+    height: 17px;
+    background: url(../images/Ellipse\ 1.png);
+    float: left;
+    margin-top: 5px;
+    position: relative;
+}
+
+.basket-logo {
+    width: 20px;
+    height: 15px;
+    background: url(../images/logo_bascket.png);
+    position: absolute;
+    bottom: -2px;
+    left: 8px
+}
+
+.about-slogan {
+    font-size: 17px;
+    color: rgb(70, 80, 90);
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(40, 49, 59);
+    font-family: "Harmonia Sans Pro Cyr";
+}
+
+ul.footer-nav a {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(40, 49, 59);
+    text-decoration: none;
+}
+
+ul.footer-nav a:hover,
+.payment-met h6 {
+    color: rgb(255, 89, 18);
+}
+
+ul.footer-nav .active {
+    color: rgb(255, 89, 18);
+}
+
+.payment-met {
+    padding: 10px 0;
+}
+
+.payment-met h6 {
+    font-size: 16px;
+    line-height: 30px;
+    width: 170px;
+}
+
+.pay-cards {
+    background: url(../images/Payment\ Images.png);
+    width: 170px;
+    height: 20px;
+    margin-top: 10px;
+}

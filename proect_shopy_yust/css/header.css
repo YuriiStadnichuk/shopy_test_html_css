@@ -1,0 +1,100 @@
+.site-header {
+    background-color: #ffffff;
+}
+
+.mail-phone-text {
+    margin: 0 55px 0 10px;
+    font-size: 12px;
+    color: rgb(52, 64, 75);
+    text-decoration: none;
+}
+
+.mail-phone-text:hover {
+    color: rgb(255, 89, 18);
+}
+
+.social-net {
+    margin: 0 8px;
+}
+
+.header-line {
+    /* min-height: 60px; */
+    border-bottom: 1px solid #edeff1;
+}
+
+.centre-logo {
+    display: flex;
+    align-items: center;
+}
+
+ul.main-nav a {
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(40, 49, 59);
+    text-decoration: none;
+    height: 100%;
+}
+
+ul.main-nav a:hover,
+ul.main-nav .active a {
+    color: rgb(255, 89, 18);
+}
+
+.main-nav li {
+    list-style: none;
+    margin: 35px 42px 0 0;
+}
+
+.direct-nav {
+    display: flex;
+}
+
+.ico-line img {
+    margin: 0 12px
+}
+
+.cart {
+    position: relative;
+}
+
+
+/* .cart-count {
+    position: relative;
+} */
+
+
+/* .cart-count::after {
+    content: "5";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top: -19px;
+    left: 16px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+} */
+
+.ico-line a .cart-count {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top: -18px;
+    left: 16px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.ico-line a .cart-count span {
+    position: relative;
+    top: -7px;
+    font-size: 10px;
+    line-height: 30px;
+}
